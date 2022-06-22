@@ -1,4 +1,4 @@
-import UserVideo from "components/userVideo";
+import UserVideo from 'components/userVideo';
 
 export default function Home() {
   return (
@@ -9,12 +9,12 @@ export default function Home() {
         <button id="join">Join</button>
       </form>
 
-      <p id='count'></p>
-      <div id='container'>
-        <div id='local'>
+      <p id="count"></p>
+      <div id="container">
+        <div id="local">
           <UserVideo />
         </div>
       </div>
     </>
-  )
+  );
 }

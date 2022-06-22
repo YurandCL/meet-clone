@@ -1,11 +1,11 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect } from 'react';
 
-import Storage from "storage";
+import Storage from 'storage';
 
 const ThemeContext = createContext();
 
 const ThemeStore = ({ children }) => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState('dark');
 
   const switchTheme = (theme) => {
     setTheme(theme);

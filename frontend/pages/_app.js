@@ -1,5 +1,5 @@
-import Theme from 'styles/themes'
-import { ThemeStore } from 'context/ThemeStore'
+import Theme from 'styles/themes';
+import { ThemeStore } from 'context/ThemeStore';
 
 function MyApp({ Component, pageProps}) {
 
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps}) {
         <Component {...pageProps} />
       </Theme>
     </ThemeStore>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

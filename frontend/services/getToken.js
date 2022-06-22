@@ -1,4 +1,4 @@
-import { baseUrl } from "core/conf"
+import { baseUrl } from 'core/conf';
 
 export default async function getMeetToken(username, room) {
   try {
@@ -12,10 +12,10 @@ export default async function getMeetToken(username, room) {
         },
         body: JSON.stringify({ username, room })
       }
-      ).then(res => res.json())
+    ).then(res => res.json());
 
-    return response
+    return response;
   } catch (e) {
-    console.error(e)
+    console.error(e);
   }
 }
