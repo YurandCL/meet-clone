@@ -1,0 +1,6 @@
+POST http://localhost:5000/join-room
+content-type: application/json
+
+{
+    "roomName": "test room"
+}
