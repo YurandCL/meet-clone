@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "twilio-run",
+    "start": "node-dev server.js",
     "deploy": "twilio-run deploy"
   },
   "dependencies": {
     "@twilio/runtime-handler": "1.2.3",
-    "twilio": "^3.56"
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "node-dev": "7.4.3",
+    "twilio": "3.77.3",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "twilio-run": "^3.4.2"
