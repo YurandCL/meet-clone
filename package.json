@@ -1,0 +1,17 @@
+{
+  "name": "meet-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint --fix"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "git-commit-msg-linter": "4.1.3",
+    "husky": "8.0.0",
+    "vitest": "0.16.0"
+  }
+}
